@@ -1,11 +1,9 @@
 import random
 
-
 secret_number = int(random.randint(1,100))
 
-
-
 guissing_number = 0
+
 tries = 0
 
 while guissing_number != secret_number:
@@ -25,6 +23,7 @@ while guissing_number != secret_number:
 
        print("you got the Rigt number!")
        
+
 
 print("Number of tries:" ,tries)
     
